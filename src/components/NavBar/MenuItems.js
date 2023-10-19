@@ -6,7 +6,7 @@ export const MenuItems = [
     },
     { 
         title: 'WORK',
-        url: '/components/Work.js',
+        url: '/Work.js',
         cName: 'nav-links'
     },
     { 

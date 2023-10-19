@@ -5,7 +5,6 @@
     align-items: center;
     justify-content: center;
     padding: 10x;
-    background-color: #102833;
     font-family: Calibri;
   }
 
@@ -27,9 +26,13 @@
 .work{
   margin: 30px 100px 0 0;
   color: rgb(255, 255, 255);
-  background-color: #102833;
   position: relative;
 }
+
+/* .amazon {
+  background-image: url("https://i.imgur.com/AqWdr2E.jpg");
+  background-position: cover;
+} */
 
 h2 {
   text-align: center;
@@ -37,7 +40,7 @@ h2 {
 
 article {
   text-align: center;
-  margin: 0 0;
+  margin: 0 0 60px 0;
   max-width: 1000px;
 }
 
@@ -54,5 +57,20 @@ p {
   text-align: justify;
   margin-top: 20px;
   line-height: 28px;
+  background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
 }
 
+h3 {
+  float: left;
+  margin: 10px 0 0 0;
+  font-size: 20px;
+}
+
+.technologies{
+  margin: 40px 0 0 0;
+}
+
+button {
+  background-color: aliceblue;
+  border: 3px solid aliceblue;
+}
