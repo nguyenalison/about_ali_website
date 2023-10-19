@@ -4,8 +4,8 @@ import './NavBar.css'
 
 class NavBar extends Component{
     state = {clicked:false}
-    
     render() {
+        console.log('in nav component')
         return(
             <nav className="NavbarItems">
                 <ul className="nav-menu">
