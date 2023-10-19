@@ -1,15 +1,9 @@
 import React from 'react';
 import './Work.css';
-import NavBar from '../components/NavBar/NavBar';
-import NameLogo from '../components/assets/Name-Logo.png';
 
 function Work() {
     return (
-      <div className="body">
-        <div className='Header'>
-          <img className='Name-Logo' src={NameLogo} alt='Ali Name Logo'></img>
-          <NavBar> </NavBar>
-        </div>    
+      <div className="body">  
         <div className='work'> 
           <article className='amazon'>
             <h2><span className='experienceType'>Software Engineer Intern - Amazon </span><span className='dates'>June 2022 - September 2022</span></h2><br></br>

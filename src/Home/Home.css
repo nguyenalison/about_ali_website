@@ -1,0 +1,84 @@
+Header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px; /* Adjust the maximum width as needed */
+  }
+  
+  .Name-Logo {
+    height: 200px;
+    margin-right: 40px;
+  }
+  
+  .Intro {
+    display: flex;
+    flex-direction: row; /* Arrange columns horizontally */
+    align-items: flex-start; /* Align text to the top */
+    width: 100%;
+    max-width: 1200px; /* Adjust the maximum width as needed */
+    
+  }
+  
+  .Grad-image {
+    max-width: 80%;
+    height: 50%;
+    margin-right: 30px; /* Add margin between Grad image and text */
+    margin-bottom: 20px;
+  }
+  .Nyc-image {
+    max-width: 90%;
+    height: 50%;
+    margin-left: 20px; /* Add margin between NycPic and text */
+    margin-top: 30px;
+  }
+  
+  .Home-column2 {
+    font-size: 20px;
+    word-spacing: 3px;
+    flex: 1;
+    font-family: Calibri;
+  }
+  
+  .Home-column1 {
+    font-size: 20px;
+    word-spacing: 3px;
+    flex: 1;
+    font-family: Calibri;
+    padding-left: 50px;
+    
+  }
+  .Home-text{
+    margin-right: 30px;
+  }
+  
+  .Contact-me{
+    font-size: xx-large;
+  }
+  
+  .LinkedIn-image{
+    height: 50px;
+    margin: 10px;
+  }
+  
+  .Email-image{
+    display: block;
+    height: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .Resume-Image{
+    display: block;
+    height: 55px;
+    margin-left: 8px;
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+  
+  .contactMethods{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+  }
+  
