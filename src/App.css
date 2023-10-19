@@ -1,38 +1,172 @@
-.App {
-  text-align: center;
+/* * {
+  box-sizing: border-box;
+  margin: 10;
+  padding: 0;
+  font-family: 'Open Sans', Calibri;;
+  background-color: #102833;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Intro{
+  display: block;
+  align-items: center;
+  height: 40vh;
+  margin: 50px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media screen and (min-width: 768px) {
+  .Home-text {
+    margin: 40px;
+    padding: 100px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+@media screen and (min-width: 900px) {
+  .Home-text {
+    padding: 70%;
+    margin: 25px;
+  }
+
+  .Grad-image{
+    margin-left: 100px;
+  }
+}
+
+
+.Grad-image{
+  margin-left: 80px;
+  margin-top: 50px;
+  max-width: 50%;
+  height: 500px
+}
+
+
+.Nyc-image{
+  margin-left: 50px;
+  margin-top: 50px;
+  max-width: 50%;
+  height: 500px
+}
+
+.Home-text{
+  color: aliceblue;
+  font-size: 20px;
+  word-spacing: 3px;
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
+  font-family: Calibri;
+}
+
+.Header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+}
+.Name-Logo{
+  height: 200px;
+  margin-left: 150px;
+  margin-right: 40px;
+} */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', Calibri;
+  background-color: #102833;
+}
+
+.App {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 10px;
+  color: aliceblue;
+  font-family: Calibri;
 }
 
-.App-link {
-  color: #61dafb;
+.Header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px; /* Adjust the maximum width as needed */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Name-Logo {
+  height: 200px;
+  margin-right: 40px;
+}
+
+.Intro {
+  display: flex;
+  flex-direction: row; /* Arrange columns horizontally */
+  align-items: flex-start; /* Align text to the top */
+  width: 100%;
+  max-width: 1200px; /* Adjust the maximum width as needed */
+  
+}
+
+.Grad-image {
+  max-width: 80%;
+  height: 50%;
+  margin-right: 30px; /* Add margin between Grad image and text */
+  margin-bottom: 20px;
+}
+.Nyc-image {
+  max-width: 90%;
+  height: 50%;
+  margin-left: 20px; /* Add margin between NycPic and text */
+  margin-top: 30px;
+}
+
+.Home-column2 {
+  font-size: 20px;
+  word-spacing: 3px;
+  flex: 1;
+  font-family: Calibri;
+}
+
+.Home-column1 {
+  font-size: 20px;
+  word-spacing: 3px;
+  flex: 1;
+  font-family: Calibri;
+  padding-left: 50px;
+  
+}
+.Home-text{
+  margin-right: 30px;
+}
+
+.Contact-me{
+  font-size: xx-large;
+}
+
+.LinkedIn-image{
+  height: 50px;
+  margin: 10px;
+}
+
+.Email-image{
+  display: block;
+  height: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.Resume-Image{
+  display: block;
+  height: 55px;
+  margin-left: 8px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.contactMethods{
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
 }
