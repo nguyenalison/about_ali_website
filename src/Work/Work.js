@@ -18,6 +18,13 @@ function Work() {
             <p className='technologies'>Azure Blog Storage, MongoDB, BrightScript, XML, SceneGraph, Github, Figma</p>
             <button>Click for final presentation</button>
           </article>
+          <article className='coder-school'>
+            <h2><span className='experienceType'>Programming Instructor - The Coder School Bellevue </span><span className='dates'>April 2020 - June 2022</span></h2><br></br>
+            <p>During my time as a Code Coach at The Coder School Bellevue, I conducted 2:1 lessons, classes, and camps in various programming languages, implementing a comprehensive curriculum that covered data structures and object-oriented concepts. With a strong focus on personalized learning, I tailored each experience to enable students to advance according to their individual skill levels. Additionally, I diligently generated weekly progress notes, detailing learning objectives and tracking student advancements to ensure their continuous growth. My commitment to fostering a positive and engaging learning environment has been instrumental in encouraging curiosity and ensuring the enjoyment of learning for all students under my guidance.</p>
+            <h3>Technologies:</h3>
+            <p className='technologies'>Python, HTML, CSS, Scratch</p>
+            <button>Click for final presentation</button>
+          </article>
         </div>
       </div>
       

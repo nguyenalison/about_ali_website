@@ -4,13 +4,16 @@ import NameLogo from './components/assets/Name-Logo.png'
 
 import Work from './Work/Work.js';
 import Leadership from './Leadership'
-import Projects from './Projects'
+import Projects from './Home/Projects/Projects'
 import Home from './Home/Home';
+import { Router, Route, Routes } from 'react-router-dom';
 
 function App() {
   let component
   console.log(window.location)
   switch(window.location.pathname){
+    case '/':
+      component = <Home></Home>
     case '/Home':
       component = <Home></Home>
       break
@@ -28,11 +31,12 @@ function App() {
   }
   return (
     <div className="App">
-      <div className='Header'>
-        <img className='Name-Logo' src={NameLogo}></img>
-        <NavBar></NavBar>
-      </div>
-      {component}
+      
+        <div className='Header'>
+          <img className='Name-Logo' src={NameLogo}></img>
+          <NavBar></NavBar>
+        </div>
+        {component}
     </div>
   );
 }

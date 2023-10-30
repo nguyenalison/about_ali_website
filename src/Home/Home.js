@@ -33,7 +33,7 @@ function Home() {
         <div className='Home-column2'>
           <p>Welcome to my personal portfolio! I recently graduated from Seattle University with a Bachelor's in Science with a degree in Computer Science. </p>
           <br></br>
-          <p>The last 4th years have been the most transformative years of my life. I entered college and ... I learned how to show up and take space in a new place. I learned how to navigate the world under a pandemic. I learned how to be in community with people under such circumstances. I learned how to code. I learned how ambitious I could be. I learned how to navigate burnout with those ambitions. I learned how much I love working and collaborating with others. I learned that change excites me. I’ve learned to be intentional about the spaces I spend my time in. </p>
+          <p>The last 4th years have been the most transformative years of my life. I entered college and ... I learned how to show up and take space in a new place. I learned how to navigate the world under a pandemic. I learned how to be in community with people under such circumstances. I learned how to code. I learned how ambitious I could be. I learned how much I love working and collaborating with others. I learned that change excites me. I’ve learned to be intentional about the spaces I spend my time in. </p>
           <img className='Nyc-image' src={NycPic} alt='nyx' ></img>
         </div>
         <div>

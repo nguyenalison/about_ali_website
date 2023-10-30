@@ -1,4 +1,4 @@
-.NavbarItems {
+.Navbar {
     display: flex;
     justify-content: flex-end; /* Center the navigation bar horizontally */
     align-items: center; /* Vertically align the items within the navigation bar */
@@ -27,12 +27,17 @@
     font-size: 25px; /* Adjust font size as needed */
   }
   
-  /* Style for when a link is hovered over */
-  .nav-menu a:hover {
+  .active{
+    color: aqua;
+    background-color: aliceblue;
+   }
+   
+  .nav-menu a.active {
     color: #ff5722; /* Change the hover color as needed */
   }
 
-  .nav li.active{
-    background-color: aquamarine;
+  /* Style for when a link is hovered over */
+  .nav-menu a:hover {
+    color: #ff5722; /* Change the hover color as needed */
   }
 
