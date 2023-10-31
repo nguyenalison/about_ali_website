@@ -1,12 +1,10 @@
 import './App.css';
 import NavBar from './components/NavBar/NavBar'
 import NameLogo from './components/assets/Name-Logo.png'
-
 import Work from './Work/Work.js';
-import Leadership from './Leadership'
-import Projects from './Home/Projects/Projects'
+import Leadership from './Leadership/Leadership';
 import Home from './Home/Home';
-import { Router, Route, Routes } from 'react-router-dom';
+import Projects from './Projects/Projects';
 
 function App() {
   let component
@@ -23,10 +21,10 @@ function App() {
     case '/Projects':
       component = <Projects></Projects>
       break
-    case 'Leadership':
+    case '/Leadership':
       component = <Leadership></Leadership>
       break
-    case 'Interest':
+    case '/Interest':
       break
   }
   return (

@@ -1,0 +1,93 @@
+
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10x;
+    font-family: Calibri;
+  }
+
+
+
+.Header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px; 
+}
+  
+.Name-Logo {
+  height: 200px;
+  margin-right: 40px;
+}
+
+.work{
+  margin: 30px 100px 0 0;
+  color: rgb(255, 255, 255);
+  position: relative;
+}
+
+.plantmamaPic{
+  position: relative;
+  width: 700px;
+  border-radius: 10px;
+}
+
+.thriftFitsPic{
+  position: relative;
+  width: 700px;
+  margin: 20px 0 0 0;
+  border-radius: 10px;
+}
+
+.convergePic{
+  position: relative;
+  width: 700px;
+  margin: 20px 0 0 0;
+  border-radius: 10px;
+}
+
+h2 {
+  text-align: center;
+}
+
+article {
+  text-align: center;
+  margin: 0 0 60px 0;
+  max-width: 1000px;
+}
+
+.dates {
+  float: right;
+}
+
+.experienceType{
+  float: left;
+}
+
+p {
+  font-size: 18px;
+  text-align: justify;
+  margin-top: 20px;
+  line-height: 28px;
+  background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+}
+
+h3 {
+  float: left;
+  margin: 10px 0 0 0;
+  font-size: 20px;
+}
+
+.technologies{
+  margin: 40px 0 0 0;
+}
+
+button {
+  background-color: aliceblue;
+  border: 3px solid aliceblue;
+  margin: 0;
+  float: right;
+}
